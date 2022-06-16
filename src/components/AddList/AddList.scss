@@ -1,0 +1,191 @@
+.list {
+    border: 1px solid #E5E5E5;
+    border-left: none;
+    border-right: none;
+
+    &:hover {
+    border-color: #ED3024;
+    } 
+
+    .add {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+
+        color: #6C757D;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px   ;
+
+        #update {
+            margin-right: 90px;
+        }
+        
+        #fullDate {
+            margin-right: 110px;
+        }
+
+        #name {
+            margin-right: 510px;
+        }
+
+        #delete {
+            cursor: pointer;
+            margin: 21px 46px 21px 36px;
+            
+        }
+        button {
+                background-color: white;
+                border: none;
+                width: 20px;
+                height: 20px;
+                margin: 0;
+        }
+        #edit {
+            cursor: pointer;
+            margin: 21px 0 21px 0;
+        }
+
+        }
+    
+    }
+
+@media (max-width: 1200px) {
+    .list {
+        .add {
+            font-size: calc(16px*1200px/1920px);
+    
+            #update {
+                margin-right: calc(90px*1200px/1920px);
+            }
+            
+            #fullDate {
+                margin-right: calc(110px*1200px/1920px);
+            }
+    
+            #name {
+                margin-right: calc(505px*1200px/1920px);
+            }
+    
+            #delete {
+                margin: calc(21px*1200px/1920px) calc(46px*1200px/1920px) calc(21px*1200px/1920px) calc(36px*1200px/1920px);
+            }
+            button {
+                    width: 8px;
+                    height: 8px;
+                    margin: 0;
+            }
+            #edit {
+                margin: calc(21px*1200px/1920px) 0 calc(21px*1200px/1920px) 0;
+            }
+    
+            }
+        
+        }
+}
+
+@media (max-width: 992px) {
+    .list {
+        .add {
+            font-size: calc(13px*992px/1200px);
+    
+            #update {
+                margin-right: calc(30px*992px/1200px);
+            }
+            
+            #fullDate {
+                margin-right: calc(60px*992px/1200px);
+            }
+    
+            #name {
+                margin-right: calc(280px*992px/1200px);
+            }
+    
+            #delete {
+                margin: calc(17px*992px/1200px) calc(38px*992px/1200px) calc(17px*992px/1200px) calc(29px*992px/1200px);
+            }
+            button {
+                    width: 8px;
+                    height: 8px;
+                    margin: 0;
+            }
+            #edit {
+                margin: calc(17px*992px/1200px) 0 calc(17px*992px/1200px) 0;
+            }
+    
+            }
+        
+        }
+}
+
+@media (max-width: 768px) {
+    .list {
+        .add {
+            font-size: calc(13px*768px/992px);
+    
+            #update {
+                margin-right: calc(30px*768px/992px);
+            }
+            
+            #fullDate {
+                margin-right: calc(60px*768px/992px);
+            }
+    
+            #name {
+                margin-right: calc(190px*768px/992px);
+            }
+    
+            #delete {
+                margin: calc(17px*768px/992px) calc(38px*768px/992px) calc(17px*768px/992px) calc(29px*768px/992px);
+            }
+            button {
+                    width: 8px;
+                    height: 8px;
+                    margin: 0;
+            }
+            #edit {
+                margin: calc(17px*768px/992px) 0 calc(17px*768px/992px) 0;
+            }
+        }
+        
+        }
+}
+
+@media (max-width: 320px) {
+    .list {
+        .add {
+
+
+            #update {
+                margin-right: 14px;
+            }
+            
+            #fullDate {
+                margin-right: 15px;
+            }
+    
+            #name {
+                margin-right: 44px;
+            }
+
+            #edit {
+                svg {
+                    width: 13px;
+                    height: 13px;
+                }
+            }
+
+            #delete {
+
+                margin-right: 20px;
+                margin-left: 15px;
+
+                svg {
+                    width: 13px;
+                    height: 13px;
+                }
+            }
+        }
+    }
+}

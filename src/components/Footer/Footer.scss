@@ -1,0 +1,126 @@
+p {
+    color: #6c757d;
+    span {
+        color: red;
+        cursor: pointer;
+    }
+}
+
+.footer {
+    margin-bottom: 51px;
+    min-height: 132px;
+    left: 400px;
+    min-width: 1120px;
+}
+
+.reference {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    width: 590px;
+    height: 63px;
+    margin-left: 400px;
+    margin-top: 17px;
+}
+
+.line {
+    border: 1px solid #E5E5E5;
+    max-width: 1120px;
+    margin: 0 400px;
+}
+
+.SocialNetwork {
+    margin: 0 0 22px 781px;
+}
+
+@media (max-width: 1200px) {
+    .footer{
+        margin-bottom: calc(51px*1200px/1920px);
+    }
+    
+    .line {
+        margin: 0 calc(400px*1200px/1920px);
+    }
+
+    .reference {
+        font-size: 14px;
+        line-height: 21px;
+        width: 590px;
+        height: 63px;
+        margin-left: calc(400px*1200px/1920px);
+    }
+
+    .SocialNetwork {
+        margin: 0 0 22px calc(700px*1200px/1920px);
+    }
+}
+
+@media (max-width: 992px) {
+    .SocialNetwork {
+        margin: 0 0 22px calc(437px*992px/1200px);
+        width: calc(1120px*1200px/1920px);
+    }
+    .reference {
+        font-size: 14px;
+        line-height: 21px;
+        width: 590px;
+        height: 63px;
+        margin-left: calc(250px*992px/1200px);
+    }
+    .line {
+        margin: 0 calc(250px*992px/1200px);
+    }
+}
+
+@media (max-width: 768px) {
+    .SocialNetwork {
+        margin: 0 0 22px calc(273px*768px/992px);
+    }
+    .reference {
+        font-size: 14px;
+        line-height: 21px;
+        width: 590px;
+        height: 63px;
+        margin-left: calc(156px*768px/992px);
+    }
+    .line {
+        margin: 0 calc(156px*768px/992px);
+    }
+}
+
+@media (max-width: 480px) {
+    .SocialNetwork {
+        margin: 0 0 22px calc(170px*480px/768px);
+    }
+    .reference {
+        font-size: 14px;
+        line-height: 21px;
+        width: 590px;
+        height: 63px;
+        margin-left: calc(97px*480px/768px);
+    }
+    .line {
+        margin: 0 calc(97px*480px/768px);
+    }
+}
+
+@media (max-width: 320px) {
+    .reference {
+        font-size: 8px;
+        line-height: 21px;
+        width: 590px;
+        height: 63px;
+        margin-left: 15px;
+    }
+    .line {
+        margin: 0;
+        width: 318px;
+    }
+
+    .SocialNetwork {
+        width: 240px;
+        margin: 0 0 22px 40px;
+    }
+}

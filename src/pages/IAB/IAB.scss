@@ -1,0 +1,163 @@
+.map {
+    min-height: 90px;
+    max-height: 100%;
+
+    width: 1118px;
+    
+    margin: 71px 401px 59px;
+
+    border: 1px solid #ed3024;
+    border-radius: 10px;
+
+    .headForm {
+        margin-top: 30px;
+        margin-bottom: 30px;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+
+        #update {
+            margin-right: 195px;
+        }
+        #dateCreate {
+            margin-right: 123px;
+        }
+        #name {
+            margin-right: 498px;
+        }
+
+        p {
+            color: black;
+            font-size: 16px;
+            line-height: 21px;
+            font-weight: 700;
+
+        }
+    }
+
+    .btnAdd {
+        width: 170px;
+        height: 46px;
+
+        font-size: 16px;
+        line-height: 21px;
+        font-weight: 600;
+
+        margin-top: 31xp;
+        margin-bottom: 30px;
+        margin-right: 46px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .map {
+        width: calc(1118px*1200px/1920px);
+        
+        margin: calc(71px*1200px/1920px) calc(401px*1200px/1920px) calc(59px*1200px/1920px);
+    
+    
+        .headForm {
+            margin-top: calc(30px*1200px/1920px);
+            margin-bottom: calc(30px*1200px/1920px);
+
+            #update {
+                margin-right: calc(195px*1200px/1920px);
+            }
+            #dateCreate {
+                margin-right: calc(123px*1200px/1920px);
+            }
+            #name {
+                margin-right: calc(498px*1200px/1920px);
+            }
+    
+            p {
+                font-size: calc(16px*1200px/1920px)
+    
+            }
+        }
+    
+        .btnAdd {
+            font-size: calc(16px*1200px/1920px);
+
+            width: calc(170px*1200px/1920px);
+            height: calc(46px*1200px/1920px);
+            margin-top: calc(31px*1200px/1920px);
+            margin-bottom: calc(30px*1200px/1920px);
+            margin-right: calc(46px*1200px/1920px);
+        }
+    }
+    
+}
+
+@media (max-width: 992px) {
+    .map {
+        width: calc(698px*992px/1200px);
+        
+        margin: calc(44px*992px/1200px) calc(250px*992px/1200px) calc(36px*992px/1200px);
+        .headForm {
+            margin-top: calc(18px*992px/1200px);
+            margin-bottom: calc(18px*992px/1200px);
+           
+            #update {
+                margin-right: calc(121px*992px/1200px);
+            }
+            #dateCreate {
+                margin-right: calc(76px*992px/1200px);
+            }
+            #name {
+                margin-right: calc(275px*992px/1200px);
+            }
+         }
+    }
+}
+
+@media (max-width: 768px) {
+    .map {
+        width: calc(600px*768px/992px);
+        
+        margin: calc(34px*768px/992px) calc(193px*992px/992px) calc(27px*992px/992px);
+        .headForm {
+            margin-top: calc(13px*768px/992px);
+            margin-bottom: calc(13px*768px/992px);
+           
+            #update {
+                margin-right: calc(120px*768px/992px);
+            }
+            #dateCreate {
+                margin-right: calc(80px*768px/992px);
+            }
+            #name {
+                margin-right: calc(170px*768px/992px);
+            }
+         }
+    }
+}
+
+@media (max-width: 480px) {
+
+}
+
+@media (max-width: 320px) {
+    .map {
+        width: 315px;
+        margin-left: 2px;
+        .headForm {
+
+            #update {
+                margin-right: 60px;
+            }
+
+            #dateCreate {
+                margin-right: 20px;
+            }
+
+            #name {
+                margin-right: 40px;
+            }
+        }
+
+    }
+}
+

@@ -1,0 +1,880 @@
+label {
+    font-family: 'Segoe UI';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    display: flex;
+
+    color: #6c757d;
+    flex-direction: column;
+    margin: 0 0 16px 0;
+
+}
+
+input {
+    margin-top: 6px;
+    height: 46px;
+    border: 1px solid #cdcdcd;
+    border-radius: 6px;
+    width: 314px;
+    padding: 0;
+}
+
+.header {
+    width: 1120px;
+    height: 53px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 53px 400px 0;
+
+    p {
+        font-family: 'Segoe UI';
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 53px;
+        color:black;
+    }
+}
+
+.formAddCard {
+    width: 740px;
+    height: 770px;
+
+    box-sizing: border-box;
+    border: 1px solid #ED3024;
+    border-radius: 10px;
+
+    margin: 50px 590px 62px;
+
+    .btnCard {
+        display: flex;
+        justify-content: flex-end;
+        button{
+            margin: 26px 46px 36px 0;
+            width: 200px;
+            height: 46px;
+            font-size: 16px;
+            line-height: 21px;
+            font-weight: 600;
+        }
+    }
+    
+
+    .dataForm {
+    display: flex;
+    flex-direction: row;
+    height: 112px;
+
+    .fileName {
+        height: 73px;
+
+            label {
+                margin: 36px 20px 16px 46px;
+            }
+    }
+    
+    .nameCard {
+        height: 73px;
+
+            label {
+                margin: 36px 46px 16px 0;
+            }
+        }
+
+    .year {
+        margin-left: 46px;
+    }
+
+    .year, .version {
+        
+        input {
+            width: 124px;
+            margin-right: 20px;
+            margin-top: 25px;
+        }
+    }
+
+    .shortURL {
+        
+        label {
+            width: 360px;
+            font-size: 14px;
+            
+        }
+
+        input {
+            width: 358px;
+            margin-top: 4px;
+        }
+    }
+
+    .compiler {
+        margin-left: 46px;
+        margin-right: 20px;
+    }
+
+
+    }
+}
+
+.description {
+    height: 73px;
+    margin: 16px 46px ;
+
+    input {
+        width: 649px;
+    }
+}
+
+.nameCategory {
+    margin: 0 46px;
+    input {
+        width: 649px;
+    }
+}
+
+.fileInput {
+
+    .myForm {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .dropArea {
+        width: 648px;
+        height: 100px;
+        border: 1px dashed #cdcdcd;
+        background-color: rgba(205, 205, 205, 0.1);
+        border-radius: 4px;
+        margin-left: 46px;
+        
+        margin-top: 6px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        p {
+            width: 250px;
+            height: 38px;
+            
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 18px;
+
+            display: flex;
+            text-align: center;
+            align-items: center;
+
+            margin-bottom: 8px;
+            margin-top: 10px;
+            margin-left: 0;
+        }
+
+        .button {
+
+            &:hover {
+                cursor: pointer;
+                background-color: #dad5d5;
+            }
+
+            background-color: #ffffff;
+            border: 1px solid #cdcdcd;
+            border-radius: 6px;
+            width: 170px;
+            height: 30px;
+
+            margin-bottom: 14px;
+
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 19px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+    }
+
+    #fileElem {
+        display: none;
+    }
+
+    img {
+        width: 25px;
+        height: 25px;
+    }
+
+    p {
+        margin-bottom: 0;
+        margin-left: 46px;
+    }
+}
+
+@media (max-width: 1200px) {
+    label {
+        font-size: calc(16px*1200px/1920px);
+        margin: 0 0 calc(16px*1200px/1920px) 0;
+    
+    }
+
+    input {
+        height: calc(46px*1200px/1920px);
+        width: calc(314px*1200px/1920px);
+        padding: 0;
+    }
+
+    .header {
+    
+        margin: calc(53px*1200px/1920px) calc(400px*1200px/1920px) 0;
+        
+    
+        p {
+            font-size: calc(40px*1200px/1920px);
+        }
+    }
+
+    .formAddCard {
+        width: calc(740px*1200px/1920px);
+        height: calc(770px*1200px/1920px);
+        margin: calc(50px*1200px/1920px) calc(590px*1200px/1920px) calc(62px*1200px/1920px);
+        .btnCard {
+            display: flex;
+            justify-content: flex-end;
+            button{
+                margin: calc(26px*1200px/1920px) calc(46px*1200px/1920px) calc(36px*1200px/1920px) 0;
+                width: calc(200px*1200px/1920px);
+                height: calc(46px*1200px/1920px);
+                font-size: 10px;
+                line-height: 21px;
+                font-weight: 600;
+            }
+        }
+        
+    
+        .dataForm {
+        display: flex;
+        flex-direction: row;
+        height: calc(112px*1200px/1920px);
+    
+        .fileName {
+            height: 73px;
+    
+                label {
+                    margin: calc(36px*1200px/1920px) calc(20px*1200px/1920px) calc(16px*1200px/1920px) calc(46px*1200px/1920px);
+                }
+        }
+        
+        .nameCard {
+            height: 73px;
+    
+                label {
+                    margin: calc(36px*1200px/1920px) calc(20px*1200px/1920px) calc(16px*1200px/1920px) 0;
+                }
+            }
+    
+        .year {
+            margin-left: calc(46px*1200px/1920px);
+        }
+    
+        .year, .version {
+            
+            input {
+                width: calc(124px*1200px/1920px);
+                margin-right: calc(20px*1200px/1920px);
+                margin-top: calc(25px*1200px/1920px);
+            }
+        }
+    
+        .shortURL {
+    
+            label {
+                width: calc(360px*1200px/1920px);
+                font-size: calc(12px*1200px/1920px);   
+            }
+    
+            input {
+                width: calc(358px*1200px/1920px);
+                margin-top: calc(4px*1200px/1920px);
+            }
+        }
+    
+        .compiler {
+            margin-left: calc(46px*1200px/1920px);
+            margin-right: calc(20px*1200px/1920px);
+        }
+    
+    
+        }
+    }
+    .description {
+        height: calc(73px*1200px/1920px);
+        margin: calc(16px*1200px/1920px) calc(46px*1200px/1920px) ;
+    
+        input {
+            width: calc(649px*1200px/1920px);
+        }
+    }    
+    .nameCategory {
+        margin: 0 calc(46px*1200px/1920px);
+        input {
+            width: calc(649px*1200px/1920px);
+        }
+    }
+
+    .fileInput {
+
+        .dropArea {
+            width: calc(648px*1200px/1920px);
+            height: calc(100px*1200px/1920px);
+            margin-left: calc(46px*1200px/1920px);
+            
+            margin-top: calc(6px*1200px/1920px);
+
+            p {
+                width: calc(250px*1200px/1920px);
+                height: calc(38px*1200px/1920px);
+                
+                font-size: calc(14px*1200px/1920px);
+                margin-bottom: calc(8px*1200px/1920px);
+                margin-top: calc(10px*1200px/1920px);
+                margin-left: 0;
+            }
+    
+            .button {
+    
+                width: calc(170px*1200px/1920px);
+                height: calc(30px*1200px/1920px);
+                font-size: calc(14px*1200px/1920px);
+                margin-bottom: calc(14px*1200px/1920px);
+                
+            }
+        }
+    
+        img {
+            width: 25px;
+            height: 25px;
+        }
+    
+        p {
+            font-size: calc(14px*1200px/1920px);
+            margin-bottom: 0;
+            margin-left: calc(46px*1200px/1920px);
+        }
+
+    }
+
+}
+
+
+@media (max-width: 992px) {
+    label {
+        font-size: calc(16px*992px/1200px);
+        margin: 0 0 calc(16px*992px/1200px) 0;
+    
+    }
+
+    input {
+        height: calc(46px*992px/1200px);
+        width: calc(314px*992px/1200px);
+        padding: 0;
+    }
+
+    .header {
+    
+        margin: calc(53px*992px/1200px) calc(380px*992px/1200px) 0;
+        width: 400px;
+        p {
+            font-size: calc(40px*992px/1200px);
+        }
+    }
+
+    .formAddCard {
+        width: calc(740px*992px/1200px);
+        height: calc(770px*992px/1200px);
+        margin: calc(50px*992px/1200px) calc(250px*992px/1200px);
+        .btnCard {
+            display: flex;
+            justify-content: flex-end;
+            button{
+                margin: calc(26px*992px/1200px) calc(46px*992px/1200px) calc(36px*992px/1200px) 0;
+                width: calc(200px*992px/1200px);
+                height: calc(46px*992px/1200px);
+                font-size: 10px;
+                line-height: 21px;
+                font-weight: 600;
+            }
+        }
+        
+    
+        .dataForm {
+        display: flex;
+        flex-direction: row;
+        height: calc(112px*992px/1200px);
+    
+        .fileName {
+            height: 73px;
+    
+                label {
+                    margin: calc(36px*992px/1200px) calc(20px*992px/1200px) calc(16px*992px/1200px) calc(46px*992px/1200px);
+                }
+        }
+        
+        .nameCard {
+            height: 73px;
+    
+                label {
+                    margin: calc(36px*992px/1200px) calc(20px*992px/1200px) calc(16px*992px/1200px) 0;
+                }
+            }
+    
+        .year {
+            margin-left: calc(46px*992px/1200px);
+        }
+    
+        .year, .version {
+            
+            input {
+                width: calc(124px*992px/1200px);
+                margin-right: calc(20px*992px/1200px);
+                margin-top: calc(25px*992px/1200px);
+            }
+        }
+    
+        .shortURL {
+    
+            label {
+                width: calc(360px*992px/1200px);
+                font-size: calc(12px*992px/1200px);   
+            }
+    
+            input {
+                width: calc(358px*992px/1200px);
+                margin-top: calc(4px*992px/1200px);
+            }
+        }
+    
+        .compiler {
+            margin-left: calc(46px*992px/1200px);
+            margin-right: calc(20px*992px/1200px);
+        }
+    
+    
+        }
+    }
+    .description {
+        height: calc(73px*992px/1200px);
+        margin: calc(16px*992px/1200px) calc(46px*992px/1200px) ;
+    
+        input {
+            width: calc(649px*992px/1200px);
+        }
+    }    
+    .nameCategory {
+        margin: 0 calc(46px*992px/1200px);
+        input {
+            width: calc(649px*992px/1200px);
+        }
+    }
+
+    .fileInput {
+
+        .dropArea {
+            width: calc(648px*992px/1200px);
+            height: calc(100px*992px/1200px);
+            margin-left: calc(46px*992px/1200px);
+            
+            margin-top: calc(6px*992px/1200px);
+
+            p {
+                width: calc(250px*992px/1200px);
+                height: calc(38px*992px/1200px);
+                
+                font-size: calc(14px*992px/1200px);
+                margin-bottom: calc(8px*992px/1200px);
+                margin-top: calc(10px*992px/1200px);
+                margin-left: 0;
+            }
+    
+            .button {
+    
+                width: calc(170px*992px/1200px);
+                height: calc(30px*992px/1200px);
+                font-size: calc(14px*992px/1200px);
+                margin-bottom: calc(14px*992px/1200px);
+                
+            }
+        }
+    
+        img {
+            width: 25px;
+            height: 25px;
+        }
+    
+        p {
+            font-size: calc(14px*992px/1200px);
+            margin-bottom: 0;
+            margin-left: calc(46px*992px/1200px);
+        }
+
+    }
+
+}
+
+@media (max-width: 768px) {
+    label {
+        font-size: calc(16px*768px/992px);
+        margin: 0 0 calc(16px*768px/992px) 0;
+    
+    }
+
+    input {
+        height: calc(46px*768px/992px);
+        width: calc(314px*768px/992px);
+        padding: 0;
+    }
+
+    .header {
+    
+        margin: calc(53px*768px/992px) calc(380px*768px/992px) 0;
+        width: 400px;
+        p {
+            font-size: calc(40px*768px/992px);
+        }
+    }
+
+    .formAddCard {
+        width: calc(740px*768px/992px);
+        height: calc(770px*768px/992px);
+        margin: calc(50px*768px/992px) calc(250px*768px/992px);
+        .btnCard {
+            display: flex;
+            justify-content: flex-end;
+            button{
+                margin: calc(26px*768px/992px) calc(46px*768px/992px) calc(36px*768px/992px) 0;
+                width: calc(200px*768px/992px);
+                height: calc(46px*768px/992px);
+                font-size: 10px;
+                line-height: 21px;
+                font-weight: 600;
+            }
+        }
+        
+    
+        .dataForm {
+        display: flex;
+        flex-direction: row;
+        height: calc(112px*768px/992px);
+    
+        .fileName {
+            height: 73px;
+    
+                label {
+                    margin: calc(36px*768px/992px) calc(20px*768px/992px) calc(16px*768px/992px) calc(46px*768px/992px);
+                }
+        }
+        
+        .nameCard {
+            height: 73px;
+    
+                label {
+                    margin: calc(36px*768px/992px) calc(20px*768px/992px) calc(16px*768px/992px) 0;
+                }
+            }
+    
+        .year {
+            margin-left: calc(46px*768px/992px);
+        }
+    
+        .year, .version {
+            
+            input {
+                width: calc(124px*768px/992px);
+                margin-right: calc(20px*768px/992px);
+                margin-top: calc(25px*768px/992px);
+            }
+        }
+    
+        .shortURL {
+    
+            label {
+                width: calc(360px*768px/992px);
+                font-size: calc(12px*768px/992px);   
+            }
+    
+            input {
+                width: calc(358px*768px/992px);
+                margin-top: calc(4px*768px/992px);
+            }
+        }
+    
+        .compiler {
+            margin-left: calc(46px*768px/992px);
+            margin-right: calc(20px*768px/992px);
+        }
+    
+    
+        }
+    }
+    .description {
+        height: calc(73px*768px/992px);
+        margin: calc(16px*768px/992px) calc(46px*768px/992px) ;
+    
+        input {
+            width: calc(649px*768px/992px);
+        }
+    }    
+    .nameCategory {
+        margin: 0 calc(46px*768px/992px);
+        input {
+            width: calc(649px*768px/992px);
+        }
+    }
+
+    .fileInput {
+
+        .dropArea {
+            width: calc(648px*768px/992px);
+            height: calc(100px*768px/992px);
+            margin-left: calc(46px*768px/992px);
+            
+            margin-top: calc(6px*768px/992px);
+
+            p {
+                width: calc(250px*768px/992px);
+                height: calc(38px*768px/992px);
+                
+                font-size: calc(14px*768px/992px);
+                margin-bottom: calc(8px*768px/992px);
+                margin-top: calc(10px*768px/992px);
+                margin-left: 0;
+            }
+    
+            .button {
+    
+                width: calc(170px*768px/992px);
+                height: calc(30px*768px/992px);
+                font-size: calc(14px*768px/992px);
+                margin-bottom: calc(14px*768px/992px);
+                
+            }
+        }
+    
+        img {
+            width: 25px;
+            height: 25px;
+        }
+    
+        p {
+            font-size: calc(14px*768px/992px);
+            margin-bottom: 0;
+            margin-left: calc(46px*768px/992px);
+        }
+
+    }
+
+}
+
+@media (max-width: 480px) {
+    label {
+        font-size: calc(16px*480px/768px);
+        margin: 0 0 calc(16px*480px/768px) 0;
+    
+    }
+
+    input {
+        height: calc(46px*480px/768px);
+        width: calc(314px*480px/768px);
+        padding: 0;
+    }
+
+    .header {
+    
+        margin: calc(53px*480px/768px) calc(75px*480px/768px) 0;
+        width: 400px;
+        p {
+            font-size: calc(40px*480px/768px);
+        }
+    }
+
+    .formAddCard {
+        width: calc(740px*480px/768px);
+        height: calc(770px*480px/768px);
+        margin: calc(50px*480px/768px) calc(15px*480px/768px);
+        .btnCard {
+            display: flex;
+            justify-content: flex-end;
+            button{
+                margin: calc(26px*480px/768px) calc(46px*480px/768px) calc(36px*480px/768px) 0;
+                width: calc(200px*480px/768px);
+                height: calc(46px*480px/768px);
+                font-size: 10px;
+                line-height: 21px;
+                font-weight: 600;
+            }
+        }
+        
+    
+        .dataForm {
+        display: flex;
+        flex-direction: row;
+        height: calc(112px*480px/768px);
+    
+        .fileName {
+            height: 73px;
+    
+                label {
+                    margin: calc(36px*480px/768px) calc(20px*480px/768px) calc(16px*480px/768px) calc(46px*480px/768px);
+                }
+        }
+        
+        .nameCard {
+            height: 73px;
+    
+                label {
+                    margin: calc(36px*480px/768px) calc(20px*480px/768px) calc(16px*480px/768px) 0;
+                }
+            }
+    
+        .year {
+            margin-left: calc(46px*480px/768px);
+        }
+    
+        .year, .version {
+            
+            input {
+                width: calc(124px*480px/768px);
+                margin-right: calc(20px*480px/768px);
+                margin-top: calc(25px*480px/768px);
+            }
+        }
+    
+        .shortURL {
+    
+            label {
+                width: calc(360px*480px/768px);
+                font-size: calc(12px*480px/768px);   
+            }
+    
+            input {
+                width: calc(358px*480px/768px);
+                margin-top: calc(4px*480px/768px);
+            }
+        }
+    
+        .compiler {
+            margin-left: calc(46px*480px/768px);
+            margin-right: calc(20px*480px/768px);
+        }
+    
+    
+        }
+    }
+    .description {
+        height: calc(73px*480px/768px);
+        margin: calc(16px*480px/768px) calc(46px*480px/768px) ;
+    
+        input {
+            width: calc(649px*480px/768px);
+        }
+    }    
+    .nameCategory {
+        margin: 0 calc(46px*480px/768px);
+        input {
+            width: calc(649px*480px/768px);
+        }
+    }
+
+    .fileInput {
+
+        .dropArea {
+            width: calc(648px*480px/768px);
+            height: calc(100px*480px/768px);
+            margin-left: calc(46px*480px/768px);
+            
+            margin-top: calc(6px*480px/768px);
+
+            p {
+                width: calc(250px*480px/768px);
+                height: calc(38px*480px/768px);
+                
+                font-size: calc(14px*480px/768px);
+                margin-bottom: calc(8px*480px/768px);
+                margin-top: calc(10px*480px/768px);
+                margin-left: 0;
+            }
+    
+            .button {
+    
+                width: calc(170px*480px/768px);
+                height: calc(30px*480px/768px);
+                font-size: calc(14px*480px/768px);
+                margin-bottom: calc(14px*480px/768px);
+                
+            }
+        }
+    
+        img {
+            width: 25px;
+            height: 25px;
+        }
+    
+        p {
+            font-size: calc(14px*480px/768px);
+            margin-bottom: 0;
+            margin-left: calc(46px*480px/768px);
+        }
+
+    }
+
+}
+
+@media (max-width: 320px) {
+
+
+    .header {
+        margin: 0;
+        margin-left: 10px;
+        width: 285px;
+        p {
+            font-size: 18px;
+            }
+    }
+
+    .formAddCard {
+
+        overflow-x: scroll;
+        width: 305px;
+       
+
+        .description {
+            margin-bottom: 15px;
+        }
+
+        .dataForm {
+            margin-bottom: 15px;
+
+            .year, .version {
+        
+                input {
+                    margin-top: 23px;
+                }
+            }
+
+            .shortURL {
+                label {      
+                    font-size: 10px;
+                    
+                }
+                
+            }
+        }
+    }
+
+}

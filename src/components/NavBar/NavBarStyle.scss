@@ -1,0 +1,110 @@
+
+.menu {
+    width: 100%;
+    min-width: 320px;
+    height: 65px;
+    display: flex;
+
+    .logo {
+        
+        width: 65px;
+        height: 65px;
+        margin-left: 400px;
+        margin-right: 964px;
+    }
+
+    .svgNavBar {
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row;
+
+    }
+
+    .user{
+        margin: 18px 400px 0 0;
+
+        &:hover {
+        cursor: pointer;
+        stroke: red;
+        fill: red;
+        }
+    }
+
+    .settings{
+        margin: 18px 46px 0 0;
+       
+        &:hover {
+            cursor: pointer;
+            stroke: red;
+            fill: red;
+            }
+    }
+}
+
+@media (max-width: 1200px) {
+    .menu {
+        min-width: 992px;
+        max-width: 100%;
+        .logo {
+            margin-left: calc(1200px * 400px / 1920px);
+            margin-right: calc(1200px * 964px / 1920px);
+        }
+        }
+    }
+
+@media (max-width: 992px) {
+  .menu {
+        min-width: 768px;
+        .logo {
+            margin-left: calc(992px * 250px / 1200px);
+            margin-right: calc(992px * 590px / 1200px);
+        }
+       
+  }
+}
+
+@media (max-width: 768px) {
+    .menu {
+        min-width: 480px;
+        max-width: 100%;
+        .logo {
+
+            margin-left: calc(768px * 206px / 992px);
+            margin-right: calc(768px * 497px / 992px);
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .menu {
+        min-width: 320px;
+        max-width: 100%;
+        .logo {
+            margin-left: calc(480px * 120px / 768px);
+            margin-right: calc(480px * 300px / 768px);
+    }
+}
+}
+
+@media (max-width: 320px) {
+    .menu {
+        .logo {
+
+            img {
+                width: 45px;
+                height: 45px;
+            }
+
+            margin-left: calc(320px * 50px / 480px);
+            margin-right: calc(320px * 140px / 480px);
+        }
+        svg {
+            width: 20px;
+            height: 20px;
+        }
+        .svgNavBar {
+            margin-left: 20px;
+        }
+    }
+}
+
