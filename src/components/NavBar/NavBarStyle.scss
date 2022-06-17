@@ -77,13 +77,21 @@
 
 @media (max-width: 480px) {
     .menu {
-        min-width: 320px;
-        max-width: 100%;
         .logo {
-            margin-left: calc(480px * 120px / 768px);
-            margin-right: calc(480px * 300px / 768px);
+
+            img {
+                width: 55px;
+                height: 55px;
+            }
+
+            margin-left: calc(480px * 80px / 768px);
+            margin-right: calc(480px * 380px / 768px);
+        }
+        svg {
+            width: 25px;
+            height: 25px;
+        }
     }
-}
 }
 
 @media (max-width: 320px) {

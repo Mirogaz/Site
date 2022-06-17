@@ -751,7 +751,7 @@ input {
             input {
                 width: calc(124px*480px/768px);
                 margin-right: calc(20px*480px/768px);
-                margin-top: calc(25px*480px/768px);
+                margin-top: 21px;
             }
         }
     
@@ -759,12 +759,12 @@ input {
     
             label {
                 width: calc(360px*480px/768px);
-                font-size: calc(12px*480px/768px);   
+                font-size: 10px;   
             }
     
             input {
                 width: calc(358px*480px/768px);
-                margin-top: calc(4px*480px/768px);
+                margin-top: 0;
             }
         }
     

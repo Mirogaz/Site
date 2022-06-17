@@ -26,6 +26,31 @@
     }
 }
 
+@media (max-width: 480px) {
+    .socialNetwork {
+       width: 300px;
+        height: 25px;
+
+        &__link {
+            padding: 4px 7px;
+
+            svg {
+                width: 15px;
+                height: 16px;
+            }
+
+    }
+        &__link__vk {
+            padding: 5px 7px;
+            
+            svg {
+                width: 15px;
+                height: 16px;
+            }
+        }
+    }
+}
+
 @media (max-width: 320px) {
     .socialNetwork {
        width: 240px;
@@ -35,8 +60,8 @@
             padding: 7px 5px;
 
             svg {
-                width: 10px;
-                height: 11px;
+                width: 11px;
+                height: 12px;
             }
 
     }
@@ -44,8 +69,8 @@
             padding: 7px 5px;
             
             svg {
-                width: 10px;
-                height: 11px;
+                width: 11px;
+                height: 12px;
             }
         }
     }

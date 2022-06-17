@@ -152,6 +152,44 @@
         }
 }
 
+@media (max-width: 480px) {
+    .list {
+        .add {
+            font-size: 12px;
+
+            #update {
+                margin-right: 50px;
+            }
+            
+            #fullDate {
+                margin-right: 50px;
+            }
+    
+            #name {
+                margin-right: 110px;
+            }
+
+            #edit {
+                svg {
+                    width: 15px;
+                    height: 15px;
+                }
+            }
+
+            #delete {
+
+                margin-right: 20px;
+                margin-left: 15px;
+
+                svg {
+                    width: 15px;
+                    height: 15px;
+                }
+            }
+        }
+    }
+}
+
 @media (max-width: 320px) {
     .list {
         .add {

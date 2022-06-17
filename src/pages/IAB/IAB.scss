@@ -136,7 +136,29 @@
 }
 
 @media (max-width: 480px) {
+    .map {
+        width: 475px;
+        margin-left: 2px;
+        .headForm {
 
+            p {
+                font-size: 12px;
+            }
+
+            #update {
+                margin-right: 100px;
+            }
+
+            #dateCreate {
+                margin-right: 50px;
+            }
+
+            #name {
+                margin-right: 105px;
+            }
+        }
+
+    }
 }
 
 @media (max-width: 320px) {

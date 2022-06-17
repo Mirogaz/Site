@@ -92,17 +92,19 @@ p {
 
 @media (max-width: 480px) {
     .SocialNetwork {
-        margin: 0 0 22px calc(170px*480px/768px);
+        width: 480px;
+        margin: 0 0 22px 90px;
     }
     .reference {
-        font-size: 14px;
+        font-size: 12px;
         line-height: 21px;
-        width: 590px;
+        width: 450px;
         height: 63px;
-        margin-left: calc(97px*480px/768px);
+        margin-left: 30px;
     }
     .line {
-        margin: 0 calc(97px*480px/768px);
+        width: 478px;
+        margin: 0;
     }
 }
 

@@ -71,14 +71,19 @@
 
 @media (max-width: 480px) {
     .menuIAB {
-        min-width: 320px;
-        max-width: 100%;
+            width: 480px;
         .logo {
+
+            img {
+                width: 55px;
+                height: 55px;
+            }
+
             margin-left: calc(480px * 120px / 768px);
             margin-right: calc(480px * 300px / 768px);
         }
         p {
-            margin: 15px 0 0 calc(200px*768px/992px);
+            margin: 8px 0 0 calc(200px*768px/992px);
         }
     }
 }
