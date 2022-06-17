@@ -115,23 +115,35 @@
 
 @media (max-width: 768px) {
     .map {
-        width: calc(600px*768px/992px);
-        
-        margin: calc(34px*768px/992px) calc(193px*992px/992px) calc(27px*992px/992px);
+        width: 700px;
+       
+        margin: calc(34px*768px/992px) 50px calc(27px*992px/992px);
         .headForm {
             margin-top: calc(13px*768px/992px);
             margin-bottom: calc(13px*768px/992px);
            
+            p {
+                font-size: 15px;
+            }
+
             #update {
-                margin-right: calc(120px*768px/992px);
+                margin-right: 125px;
             }
             #dateCreate {
-                margin-right: calc(80px*768px/992px);
+                margin-right: 75px;
             }
             #name {
-                margin-right: calc(170px*768px/992px);
+                margin-right: 235px;
             }
          }
+         .btnAdd {
+            width: 150px;
+            height: 40px;
+
+            font-size: 14px;
+            line-height: 21px;
+            font-weight: 600;
+        }
     }
 }
 

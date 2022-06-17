@@ -76,7 +76,7 @@ p {
 
 @media (max-width: 768px) {
     .SocialNetwork {
-        margin: 0 0 22px calc(273px*768px/992px);
+        margin: 0 0 22px 219px;
     }
     .reference {
         font-size: 14px;
@@ -86,7 +86,8 @@ p {
         margin-left: calc(156px*768px/992px);
     }
     .line {
-        margin: 0 calc(156px*768px/992px);
+        width: 600px;
+        margin-left: calc(156px*768px/992px) ;
     }
 }
 

@@ -529,7 +529,7 @@ input {
 
 @media (max-width: 768px) {
     label {
-        font-size: calc(16px*768px/992px);
+        font-size: 12px;
         margin: 0 0 calc(16px*768px/992px) 0;
     
     }
@@ -542,7 +542,7 @@ input {
 
     .header {
     
-        margin: calc(53px*768px/992px) calc(380px*768px/992px) 0;
+        margin: calc(53px*768px/992px) 184px 0;
         width: 400px;
         p {
             font-size: calc(40px*768px/992px);
@@ -552,15 +552,16 @@ input {
     .formAddCard {
         width: calc(740px*768px/992px);
         height: calc(770px*768px/992px);
-        margin: calc(50px*768px/992px) calc(250px*768px/992px);
+        margin: calc(50px*768px/992px) 97px;
         .btnCard {
             display: flex;
             justify-content: flex-end;
+
             button{
                 margin: calc(26px*768px/992px) calc(46px*768px/992px) calc(36px*768px/992px) 0;
                 width: calc(200px*768px/992px);
                 height: calc(46px*768px/992px);
-                font-size: 10px;
+                font-size: 11px;
                 line-height: 21px;
                 font-weight: 600;
             }
@@ -597,7 +598,7 @@ input {
             input {
                 width: calc(124px*768px/992px);
                 margin-right: calc(20px*768px/992px);
-                margin-top: calc(25px*768px/992px);
+                margin-top: 24px;
             }
         }
     
@@ -605,7 +606,7 @@ input {
     
             label {
                 width: calc(360px*768px/992px);
-                font-size: calc(12px*768px/992px);   
+                font-size: 12px;   
             }
     
             input {
@@ -650,7 +651,7 @@ input {
                 width: calc(250px*768px/992px);
                 height: calc(38px*768px/992px);
                 
-                font-size: calc(14px*768px/992px);
+                font-size: 11px;
                 margin-bottom: calc(8px*768px/992px);
                 margin-top: calc(10px*768px/992px);
                 margin-left: 0;
@@ -658,9 +659,9 @@ input {
     
             .button {
     
-                width: calc(170px*768px/992px);
-                height: calc(30px*768px/992px);
-                font-size: calc(14px*768px/992px);
+                width: 150px;
+                height: 25pxs;
+                font-size: 12px;
                 margin-bottom: calc(14px*768px/992px);
                 
             }
@@ -672,7 +673,7 @@ input {
         }
     
         p {
-            font-size: calc(14px*768px/992px);
+            font-size: 12px;
             margin-bottom: 0;
             margin-left: calc(46px*768px/992px);
         }

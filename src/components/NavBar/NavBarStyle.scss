@@ -65,12 +65,20 @@
 
 @media (max-width: 768px) {
     .menu {
-        min-width: 480px;
-        max-width: 100%;
+        width: 768px;
         .logo {
 
-            margin-left: calc(768px * 206px / 992px);
-            margin-right: calc(768px * 497px / 992px);
+            img {
+                width: 60px;
+                height: 60px;
+            }
+
+            margin-left: 50px;
+            margin-right: 530px;
+        }
+        svg {
+            width: 25px;
+            height: 25px;
         }
     }
 }

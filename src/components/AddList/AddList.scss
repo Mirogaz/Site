@@ -122,30 +122,32 @@
 @media (max-width: 768px) {
     .list {
         .add {
-            font-size: calc(13px*768px/992px);
+            font-size: 14px;
     
             #update {
-                margin-right: calc(30px*768px/992px);
+                margin-right: 65px;
             }
             
             #fullDate {
-                margin-right: calc(60px*768px/992px);
+                margin-right: 70px;
             }
     
             #name {
-                margin-right: calc(190px*768px/992px);
+                margin-right: 246px;
             }
     
             #delete {
-                margin: calc(17px*768px/992px) calc(38px*768px/992px) calc(17px*768px/992px) calc(29px*768px/992px);
+                svg {
+                    width: 18px;
+                    height: 18px;
+                }
             }
-            button {
-                    width: 8px;
-                    height: 8px;
-                    margin: 0;
-            }
+            
             #edit {
-                margin: calc(17px*768px/992px) 0 calc(17px*768px/992px) 0;
+                svg {
+                    width: 18px;
+                    height: 18px;
+                }
             }
         }
         

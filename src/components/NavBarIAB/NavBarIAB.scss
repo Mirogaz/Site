@@ -56,17 +56,22 @@
 
 @media (max-width: 768px) {
     .menuIAB {
-        min-width: 480px;
-        max-width: 100%;
-        .logo {
-            margin-left: calc(768px * 206px / 992px);
-            margin-right: calc(768px * 497px / 992px);
+        width: 768px;
+    .logo {
+
+        img {
+            width: 65px;
+            height: 65px;
         }
-        p {
-            margin: 15px 0 0 calc(315px*768px/992px);
-        }
-       
+
+        margin-left: 50px;
+        margin-right: calc(480px * 300px / 768px);
     }
+    p {
+        font-size: 30px;
+        margin: 8px 0 0 calc(200px*768px/992px);
+    }
+}
 }
 
 @media (max-width: 480px) {

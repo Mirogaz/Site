@@ -216,7 +216,55 @@ button {
 
 @media (max-width: 768px) {
 
+    button {
+        svg {
+            width: 23px;
+            height: 23px;
+
+        }
+        width: 160px;
+        height: 40px;
+
+        font-size: 11px;
+    }
+
     
+
+    .admin {
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        p {
+            margin: 0;
+            width: 768px;
+            height: 15px;
+            font-size: 25px;
+            
+            }
+         }
+
+    .card {
+            width: 450px;
+            height: 300px;
+
+            margin: 0;
+            margin-top: 55px;
+            margin-left: 159px;
+
+       
+                    &__add, &__directory
+                {
+                    p {
+                        font-size: 16px;
+                    }
+                    
+
+                }
+                &__add {
+                    margin-bottom: 20px;
+                }
+            }
 }
 
 @media (max-width: 480px) {
