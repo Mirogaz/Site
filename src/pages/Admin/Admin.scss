@@ -123,112 +123,48 @@ button {
 
 @media (max-width: 1200px) {
 
-    button {
-        font-size: 10px;
-        line-height: 15px;
-        width: calc(260px*1200px/1920px);
-        height: calc(56px*1200px/1920px);
-        margin: calc(16px*1200px/1920px) 0 0 calc(45px*1200px/1920px);
-    }
-
-
     .admin {
+        width: 1200px;
         display: flex;
         align-items: center;
         text-align: center;
-     p {
-        margin: 0;
-        margin-left: calc(53px*1200px/1920px);
-        width: 1120px;
-        height: calc(53px*1200px/1920px);
-        font-size: calc(40px*1200px/1920px);
+        
+        p {
+            width: 1200px;
+            margin: 0;
+            font-size: 35px;
         }
-    }
-
-    .head {
-        margin: 52px 78px 30px 78px;
-        width: 40px;
-        height: 40px;
     }
 
     .card {
-        width: calc(1200px*1200px/1920px);
-        height: calc(400px*1200px/1920px);
-        margin-left: calc(592px*1200px/1920px);
-        margin-top: calc(64px*1200px/1920px);
-        margin-bottom: calc(65px*1200/1920px);
-
-        
-
-                &__add, &__directory
-            {
-            
-                p {
-                    font-size: 16px;
-                }
-
-                
-
-            width: calc(353px*1200px/1920px);
-            height: calc(400px*1200px/1920px);
-
-            }
-        }
-
+        width: 1200px;
+        margin-left: 232px;
+    }
+    
 }
+
 
 @media (max-width: 992px) {
-
-
     .admin {
-     p {
-        margin: 0;
-        width: 100%;
-        margin: 0 calc(400px*992px/1920px) 0;
-        height: calc(33px*992px/1200px);
-        font-size: calc(25px*992px/1200px);
-        }
-    }
+        width: 992px;
+        display: flex;
+        align-items: center;
+        text-align: center;
 
-    .head {
-        margin: 52px 78px 30px 78px;
-        width: 40px;
-        height: 40px;
-    }
+        p {
+            margin: 0;
+            font-size: 30px;
+            }
+
+         }
 
     .card {
-        margin: 0;
-        margin-left: calc(592px*992px/1920px);
-        margin-top: calc(40px*992px/1200px);
-        margin-bottom: calc(40px*992px/1200px);
-
-        
-                &__add, &__directory
-            {
-                
-                p {
-                    font-size: 16px;
-                }
-
-            }
-        }
-}
+        width: 992px;
+        margin-left: 128px;
+    }
+} 
 
 @media (max-width: 768px) {
-
-    button {
-        svg {
-            width: 23px;
-            height: 23px;
-
-        }
-        width: 160px;
-        height: 40px;
-
-        font-size: 11px;
-    }
-
-    
 
     .admin {
         display: flex;
@@ -244,40 +180,13 @@ button {
             }
          }
 
-    .card {
-            width: 450px;
-            height: 300px;
-
-            margin: 0;
-            margin-top: 55px;
-            margin-left: 159px;
-
-       
-                    &__add, &__directory
-                {
-                    p {
-                        font-size: 16px;
-                    }
-                    
-
-                }
-                &__add {
-                    margin-bottom: 20px;
-                }
-            }
+         .card {
+            width: 740px;
+            margin-left: 14px;
+         }
 }
 
 @media (max-width: 480px) {
-
-    button {
-        font-size: 11px;
-        svg {
-            width: 20px;
-            height: 20px;
-
-        }
-    }
-
 
     .admin {
         display: flex;
@@ -291,22 +200,44 @@ button {
             font-size: 18px;
             
             }
-         }
+        }
 
     .card {
-            width: 450px;
-            height: 600px;
+    
+    margin: 0;
+    width: 325px;
+    height: 650px;
+   
+    .head {
+        margin: auto;
+        margin-top: 60px;
+    }
 
-            margin: 0;
-            margin-top: 55px;
-            margin-left: 130px;
-
+            margin-top: 50px;
+            margin-left: 77px;
             display: flex;
             flex-direction: column;
                     &__add, &__directory
                 {
+                    
+                    width: 325px;
+                    height: 650px;
+
+                    button {
+                        font-size: 12px;
+                        width: 200px;
+                        margin: 0;
+                        margin-left: 62px;
+                        margin-bottom: 0;
+                        svg {
+                            width: 22px;
+                            height: 22px;
+                
+                        }
+                    }
+
                     p {
-                        font-size: 16px;
+                        font-size: 18px;
                     }
                     
 
@@ -318,13 +249,6 @@ button {
 }
 
 @media (max-width: 320px) {
-    button {    
-        svg {
-            width: 20px;
-            height: 20px;
-        }
-    }
-
 
     .admin {
         display: flex;
@@ -338,19 +262,42 @@ button {
             font-size: 14px;
             margin-right: 5px;
             }
+
          }
-         .card {
-            width: 312px;
+
+    .card   {
+
+        .head {
+            margin: auto;
+            margin-top: 50px;
+        }
+
+            width: 300px;
             height: 600px;
 
             margin: 0;
             margin-top: 55px;
-            margin-left: 45px;
+            margin-left: 20px;
 
             display: flex;
             flex-direction: column;
                     &__add, &__directory
                 {
+                    
+                    button {    
+                        font-size: 11px;
+                        width: 180px;
+                        margin: 0;
+                        
+                        svg {
+                            width: 20px;
+                            height: 20px;
+                        }
+                        margin-left: 50px;
+                    }
+
+                    width: 280px;
+                    height: 300px;
                     p {
                         font-size: 16px;
                     }
@@ -360,5 +307,5 @@ button {
                 &__add {
                     margin-bottom: 20px;
                 }
-            }
+        }
 }

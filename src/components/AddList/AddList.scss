@@ -52,71 +52,17 @@
     }
 
 @media (max-width: 1200px) {
-    .list {
-        .add {
-            font-size: calc(16px*1200px/1920px);
-    
-            #update {
-                margin-right: calc(90px*1200px/1920px);
-            }
-            
-            #fullDate {
-                margin-right: calc(110px*1200px/1920px);
-            }
-    
-            #name {
-                margin-right: calc(505px*1200px/1920px);
-            }
-    
-            #delete {
-                margin: calc(21px*1200px/1920px) calc(46px*1200px/1920px) calc(21px*1200px/1920px) calc(36px*1200px/1920px);
-            }
-            button {
-                    width: 8px;
-                    height: 8px;
-                    margin: 0;
-            }
-            #edit {
-                margin: calc(21px*1200px/1920px) 0 calc(21px*1200px/1920px) 0;
-            }
-    
-            }
-        
-        }
+   
 }
 
 @media (max-width: 992px) {
     .list {
         .add {
-            font-size: calc(13px*992px/1200px);
-    
-            #update {
-                margin-right: calc(30px*992px/1200px);
-            }
-            
-            #fullDate {
-                margin-right: calc(60px*992px/1200px);
-            }
-    
             #name {
-                margin-right: calc(280px*992px/1200px);
+                margin-right: 200px;
             }
-    
-            #delete {
-                margin: calc(17px*992px/1200px) calc(38px*992px/1200px) calc(17px*992px/1200px) calc(29px*992px/1200px);
-            }
-            button {
-                    width: 8px;
-                    height: 8px;
-                    margin: 0;
-            }
-            #edit {
-                margin: calc(17px*992px/1200px) 0 calc(17px*992px/1200px) 0;
-            }
-    
-            }
-        
         }
+    }
 }
 
 @media (max-width: 768px) {
@@ -125,7 +71,7 @@
             font-size: 14px;
     
             #update {
-                margin-right: 65px;
+                margin-right: 50px;
             }
             
             #fullDate {
@@ -133,7 +79,7 @@
             }
     
             #name {
-                margin-right: 246px;
+                margin-right: 210px;
             }
     
             #delete {
@@ -164,7 +110,7 @@
             }
             
             #fullDate {
-                margin-right: 50px;
+                margin-right: 35px;
             }
     
             #name {
@@ -206,7 +152,7 @@
             }
     
             #name {
-                margin-right: 44px;
+                margin-right: 35px;
             }
 
             #edit {

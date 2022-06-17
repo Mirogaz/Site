@@ -218,157 +218,16 @@ input {
 }
 
 @media (max-width: 1200px) {
-    label {
-        font-size: calc(16px*1200px/1920px);
-        margin: 0 0 calc(16px*1200px/1920px) 0;
-    
-    }
+   .header {
+     width: 1200px;
+     p {
+        width: 1200px;
+     }
+   }
 
-    input {
-        height: calc(46px*1200px/1920px);
-        width: calc(314px*1200px/1920px);
-        padding: 0;
-    }
-
-    .header {
-    
-        margin: calc(53px*1200px/1920px) calc(400px*1200px/1920px) 0;
-        
-    
-        p {
-            font-size: calc(40px*1200px/1920px);
-        }
-    }
-
-    .formAddCard {
-        width: calc(740px*1200px/1920px);
-        height: calc(770px*1200px/1920px);
-        margin: calc(50px*1200px/1920px) calc(590px*1200px/1920px) calc(62px*1200px/1920px);
-        .btnCard {
-            display: flex;
-            justify-content: flex-end;
-            button{
-                margin: calc(26px*1200px/1920px) calc(46px*1200px/1920px) calc(36px*1200px/1920px) 0;
-                width: calc(200px*1200px/1920px);
-                height: calc(46px*1200px/1920px);
-                font-size: 10px;
-                line-height: 21px;
-                font-weight: 600;
-            }
-        }
-        
-    
-        .dataForm {
-        display: flex;
-        flex-direction: row;
-        height: calc(112px*1200px/1920px);
-    
-        .fileName {
-            height: 73px;
-    
-                label {
-                    margin: calc(36px*1200px/1920px) calc(20px*1200px/1920px) calc(16px*1200px/1920px) calc(46px*1200px/1920px);
-                }
-        }
-        
-        .nameCard {
-            height: 73px;
-    
-                label {
-                    margin: calc(36px*1200px/1920px) calc(20px*1200px/1920px) calc(16px*1200px/1920px) 0;
-                }
-            }
-    
-        .year {
-            margin-left: calc(46px*1200px/1920px);
-        }
-    
-        .year, .version {
-            
-            input {
-                width: calc(124px*1200px/1920px);
-                margin-right: calc(20px*1200px/1920px);
-                margin-top: calc(25px*1200px/1920px);
-            }
-        }
-    
-        .shortURL {
-    
-            label {
-                width: calc(360px*1200px/1920px);
-                font-size: calc(12px*1200px/1920px);   
-            }
-    
-            input {
-                width: calc(358px*1200px/1920px);
-                margin-top: calc(4px*1200px/1920px);
-            }
-        }
-    
-        .compiler {
-            margin-left: calc(46px*1200px/1920px);
-            margin-right: calc(20px*1200px/1920px);
-        }
-    
-    
-        }
-    }
-    .description {
-        height: calc(73px*1200px/1920px);
-        margin: calc(16px*1200px/1920px) calc(46px*1200px/1920px) ;
-    
-        input {
-            width: calc(649px*1200px/1920px);
-        }
-    }    
-    .nameCategory {
-        margin: 0 calc(46px*1200px/1920px);
-        input {
-            width: calc(649px*1200px/1920px);
-        }
-    }
-
-    .fileInput {
-
-        .dropArea {
-            width: calc(648px*1200px/1920px);
-            height: calc(100px*1200px/1920px);
-            margin-left: calc(46px*1200px/1920px);
-            
-            margin-top: calc(6px*1200px/1920px);
-
-            p {
-                width: calc(250px*1200px/1920px);
-                height: calc(38px*1200px/1920px);
-                
-                font-size: calc(14px*1200px/1920px);
-                margin-bottom: calc(8px*1200px/1920px);
-                margin-top: calc(10px*1200px/1920px);
-                margin-left: 0;
-            }
-    
-            .button {
-    
-                width: calc(170px*1200px/1920px);
-                height: calc(30px*1200px/1920px);
-                font-size: calc(14px*1200px/1920px);
-                margin-bottom: calc(14px*1200px/1920px);
-                
-            }
-        }
-    
-        img {
-            width: 25px;
-            height: 25px;
-        }
-    
-        p {
-            font-size: calc(14px*1200px/1920px);
-            margin-bottom: 0;
-            margin-left: calc(46px*1200px/1920px);
-        }
-
-    }
+   .formAddCard {
+    margin-left: 230px;
+   }
 
 }
 
@@ -389,8 +248,10 @@ input {
     .header {
     
         margin: calc(53px*992px/1200px) calc(380px*992px/1200px) 0;
-        width: 400px;
+        width: 992px;
+        margin-left: 0;
         p {
+            width: 320px;
             font-size: calc(40px*992px/1200px);
         }
     }
@@ -406,7 +267,7 @@ input {
                 margin: calc(26px*992px/1200px) calc(46px*992px/1200px) calc(36px*992px/1200px) 0;
                 width: calc(200px*992px/1200px);
                 height: calc(46px*992px/1200px);
-                font-size: 10px;
+                font-size: 12px;
                 line-height: 21px;
                 font-weight: 600;
             }
@@ -543,8 +404,10 @@ input {
     .header {
     
         margin: calc(53px*768px/992px) 184px 0;
-        width: 400px;
+        width: 768px;
+        margin-left: 0;
         p {
+            width: 300px;
             font-size: calc(40px*768px/992px);
         }
     }
@@ -700,6 +563,7 @@ input {
         margin: calc(53px*480px/768px) calc(75px*480px/768px) 0;
         width: 400px;
         p {
+            width: 250px;
             font-size: calc(40px*480px/768px);
         }
     }
@@ -841,9 +705,10 @@ input {
 
     .header {
         margin: 0;
-        margin-left: 10px;
+        margin-left: 15px;
         width: 285px;
         p {
+            width: 175px;
             font-size: 18px;
             }
     }

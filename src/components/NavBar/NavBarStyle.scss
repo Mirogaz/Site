@@ -43,24 +43,32 @@
 
 @media (max-width: 1200px) {
     .menu {
-        min-width: 992px;
-        max-width: 100%;
+        width: 1200px;
         .logo {
-            margin-left: calc(1200px * 400px / 1920px);
-            margin-right: calc(1200px * 964px / 1920px);
+            margin-left: 150px;
+            margin-right: 800px;
         }
         }
     }
 
 @media (max-width: 992px) {
-  .menu {
-        min-width: 768px;
+    .menu {
+        width: 992px;
         .logo {
-            margin-left: calc(992px * 250px / 1200px);
-            margin-right: calc(992px * 590px / 1200px);
+
+            img {
+                width: 65px;
+                height: 65px;
+            }
+
+            margin-left: 100px;
+            margin-right: 650px;
         }
-       
-  }
+        svg {
+            width: 26px;
+            height: 26px;
+        }
+    }
 }
 
 @media (max-width: 768px) {

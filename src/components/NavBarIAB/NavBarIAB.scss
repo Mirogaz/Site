@@ -26,32 +26,36 @@
 
 @media (max-width: 1200px) {
     .menuIAB {
-        min-width: 992px;
-        max-width: 100%;
+        width: 1200px;
         .logo {
-            margin-left: calc(1200px * 400px / 1920px);
-            margin-right: calc(1200px * 964px / 1920px);
+            margin-left: 150px;
         }
         p {
-            font-size: calc(40px*1200px/1920px);
-            margin: 15px 0 0 calc(525px*1200px/1920px);
+            font-size: 35px;
+            margin-left: 235px;
         }
         }
     }
 
 @media (max-width: 992px) {
   .menuIAB {
-        min-width: 768px;
-        .logo {
-            margin-left: calc(992px * 250px / 1200px);
-            margin-right: calc(992px * 590px / 1200px);
-        }
+        width: 992px;
+
         p {
-            font-size: calc(25px*992px/1200px);
-            margin: 15px 0 0 calc(350px*992px/1200px);
+            font-size: 30px;
+            margin: 15px 0 0 180px;
         }
-       
-  }
+        .logo {
+
+            img {
+                width: 65px;
+                height: 65px;
+            }
+
+            margin-left: 100px;
+            margin-right: 650px;
+        }
+    }
 }
 
 @media (max-width: 768px) {

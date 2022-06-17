@@ -53,61 +53,18 @@
 
 @media (max-width: 1200px) {
     .map {
-        width: calc(1118px*1200px/1920px);
-        
-        margin: calc(71px*1200px/1920px) calc(401px*1200px/1920px) calc(59px*1200px/1920px);
-    
-    
-        .headForm {
-            margin-top: calc(30px*1200px/1920px);
-            margin-bottom: calc(30px*1200px/1920px);
-
-            #update {
-                margin-right: calc(195px*1200px/1920px);
-            }
-            #dateCreate {
-                margin-right: calc(123px*1200px/1920px);
-            }
-            #name {
-                margin-right: calc(498px*1200px/1920px);
-            }
-    
-            p {
-                font-size: calc(16px*1200px/1920px)
-    
-            }
-        }
-    
-        .btnAdd {
-            font-size: calc(16px*1200px/1920px);
-
-            width: calc(170px*1200px/1920px);
-            height: calc(46px*1200px/1920px);
-            margin-top: calc(31px*1200px/1920px);
-            margin-bottom: calc(30px*1200px/1920px);
-            margin-right: calc(46px*1200px/1920px);
-        }
+        margin-left: 40px;
     }
-    
 }
 
 @media (max-width: 992px) {
     .map {
-        width: calc(698px*992px/1200px);
-        
-        margin: calc(44px*992px/1200px) calc(250px*992px/1200px) calc(36px*992px/1200px);
+        width: 800px;
+        margin-left: 100px;
         .headForm {
-            margin-top: calc(18px*992px/1200px);
-            margin-bottom: calc(18px*992px/1200px);
            
-            #update {
-                margin-right: calc(121px*992px/1200px);
-            }
-            #dateCreate {
-                margin-right: calc(76px*992px/1200px);
-            }
             #name {
-                margin-right: calc(275px*992px/1200px);
+                margin-right: 187px;
             }
          }
     }
@@ -127,13 +84,13 @@
             }
 
             #update {
-                margin-right: 125px;
+                margin-right: 145px;
             }
             #dateCreate {
                 margin-right: 75px;
             }
             #name {
-                margin-right: 235px;
+                margin-right: 200px;
             }
          }
          .btnAdd {
@@ -169,6 +126,14 @@
                 margin-right: 105px;
             }
         }
+        .btnAdd {
+            width: 110px;
+            height: 30px;
+    
+            font-size: 12px;
+
+            margin-left: 32px;
+        }
 
     }
 }
@@ -191,7 +156,14 @@
                 margin-right: 40px;
             }
         }
+        .btnAdd {
+            width: 100px;
+            height: 30px;
+    
+            font-size: 10px;
 
+            margin-left: 7px;
+        }
     }
 }
 
