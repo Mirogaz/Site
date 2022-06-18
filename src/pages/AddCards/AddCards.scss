@@ -565,7 +565,7 @@ input {
         p {
             width: 250px;
             font-size: calc(40px*480px/768px);
-        }
+        } 
     }
 
     .formAddCard {
@@ -714,33 +714,97 @@ input {
     }
 
     .formAddCard {
-
+        
         overflow-x: scroll;
         width: 305px;
-       
+
+        input {
+            width: 220px
+        }
+
+        label {
+            font-size: 12px;
+        }
 
         .description {
             margin-bottom: 15px;
+            height: 60px;
+            margin-left: 40px;
+        }
+
+        .nameCard {
+            margin-left: 28px;
         }
 
         .dataForm {
+            margin-left: 13px;
             margin-bottom: 15px;
+            display: flex;
+            flex-direction: column;
+            
+            height: 155px;
+
+
+            .version {
+                margin-left: 29px;
+            }
 
             .year, .version {
-        
+                display: flex;
+                flex-direction: row;
                 input {
-                    margin-top: 23px;
+                    width: 220px;
+                    margin-top: 6px;
                 }
+                
+
+            }
+
+            .compiler {
+                margin-top: 50px;
+            }
+
+            .compilerLink {
+                margin-left: 29px;
             }
 
             .shortURL {
+                margin-left: 29px;
                 label {      
-                    font-size: 10px;
-                    
+                    font-size: 12px;
                 }
                 
             }
         }
+        .nameCategory {
+            margin-bottom: 15px;
+            margin-top: 26px;
+            height: 60px;
+            margin-left: 40px;
+        }
+    }
+    .fileInput {
+        margin-left: 10px;
+       p {
+        font-size: 12px;
+       }
+
+       .dropArea {
+        width: 220px;
+        height: 100px;
+        .myForm {
+
+             p {
+                font-size: 11px;
+             }
+             .button {
+                margin-top: 5px;
+                width: 125px;
+                height: 25px;
+                font-size: 11px;
+             }
+        }
+       }
     }
 
 }

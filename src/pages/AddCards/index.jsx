@@ -101,7 +101,7 @@ function AddCards() {
                             <form className='myForm'>
                                 <p>Перетащите в это поле логотипы или</p>
                                 <input type='file' id='fileElem' multiple accept='image/*' onChange={onImageChange}  />
-                                <label class='button' for='fileElem' >Загрузить файл с ПК</label>
+                                <label className='button' >Загрузить файл с ПК</label>
 
                                 {
                                     files.length > 0 ? files[0].name : ""
